@@ -13,5 +13,10 @@ function addElementToEndOfArray() {
 }
 
 function destructivelyAddElementToEndOfArray() {
-  return list.shift(element)
+  return list.push(element)
 }
+
+function accessElementInArray(list, index) {
+  return list[index]
+}
+
