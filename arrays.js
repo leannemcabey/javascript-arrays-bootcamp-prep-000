@@ -9,7 +9,9 @@ function destructivelyAddElementToBeginningOfArray(list, element) {
 }
 
 function addElementToEndOfArray() {
-  
+  return [...list, element]
 }
 
-function 
+function destructivelyAddElementToEndOfArray() {
+  return list.shift(element)
+}
