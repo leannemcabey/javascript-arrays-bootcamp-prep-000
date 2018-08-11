@@ -20,3 +20,6 @@ function accessElementInArray(list, index) {
   return list[index]
 }
 
+function destructivelyRemoveElementFromBeginningOfArray() {
+  
+}
